@@ -11,6 +11,6 @@ class SkillsController extends Controller
         $data=array(
             "skill1"=>"Computer assembly & disassembly",
         );
-        return view('Hobbies', ['data'=>$data]);
+        return view('Skills', ['data'=>$data]);
     }
 }
