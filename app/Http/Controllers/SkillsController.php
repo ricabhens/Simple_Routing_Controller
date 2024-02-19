@@ -9,7 +9,8 @@ class SkillsController extends Controller
     public function index()
     {
         $data=array(
-            "skill1"=>"Computer assembly & disassembly",
+            "skill 1"=>"Computer Assembly & Disassembly",
+            "skill 2"=>"Technological Skills"
         );
         return view('Skills', ['data'=>$data]);
     }

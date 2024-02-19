@@ -9,8 +9,8 @@ class HobbiesController extends Controller
     public function index()
     {
         $data=array(
-            "hobby1"=>"Playing Online Games",
-            "hobby2"=> "Watching Movies/Series" 
+            "hobby 1"=>"Playing Online Games",
+            "hobby 2"=> "Watching Movies/Series" 
         );
         return view('Hobbies', ['data'=>$data]);
     }
