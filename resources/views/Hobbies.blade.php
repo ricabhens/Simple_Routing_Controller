@@ -11,6 +11,5 @@
     <button> <a href="http://127.0.0.1:8000/About_Me">About Me</button>
     <button> <a href="http://127.0.0.1:8000/Hobbies">Hobbies</button>
     <button> <a href="http://127.0.0.1:8000/Skills">Skills</button>
-    
 </body>
 </html>
