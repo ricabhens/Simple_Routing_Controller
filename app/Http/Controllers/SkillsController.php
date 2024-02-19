@@ -6,5 +6,11 @@ use Illuminate\Http\Request;
 
 class SkillsController extends Controller
 {
-    //
+    public function index()
+    {
+        $data=array(
+            "skill1"=>"Computer assembly & disassembly",
+        );
+        return view('Hobbies', ['data'=>$data]);
+    }
 }
